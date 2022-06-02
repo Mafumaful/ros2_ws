@@ -1,0 +1,27 @@
+[1.827s] Invoking command in '/home/ubuntu/ros2_ws/src/my_py_package': PYTHONPATH=/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_package build --build-base /home/ubuntu/ros2_ws/build/my_py_package/build install --prefix /home/ubuntu/ros2_ws/install --record /home/ubuntu/ros2_ws/build/my_py_package/install.log --single-version-externally-managed
+[3.578s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.578s]   % (opt, underscore_opt)
+[3.579s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.579s]   % (opt, underscore_opt)
+[3.705s] running egg_info
+[3.706s] writing ../../build/my_py_package/my_py_package.egg-info/PKG-INFO
+[3.706s] writing dependency_links to ../../build/my_py_package/my_py_package.egg-info/dependency_links.txt
+[3.707s] writing entry points to ../../build/my_py_package/my_py_package.egg-info/entry_points.txt
+[3.707s] writing requirements to ../../build/my_py_package/my_py_package.egg-info/requires.txt
+[3.707s] writing top-level names to ../../build/my_py_package/my_py_package.egg-info/top_level.txt
+[3.712s] reading manifest file '../../build/my_py_package/my_py_package.egg-info/SOURCES.txt'
+[3.713s] writing manifest file '../../build/my_py_package/my_py_package.egg-info/SOURCES.txt'
+[3.714s] running build
+[3.714s] running build_py
+[3.714s] running install
+[3.715s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.715s]   setuptools.SetuptoolsDeprecationWarning,
+[3.716s] running install_lib
+[3.718s] running install_data
+[3.719s] running install_egg_info
+[3.743s] removing '/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_package-0.0.0-py3.6.egg-info' (and everything under it)
+[3.743s] Copying ../../build/my_py_package/my_py_package.egg-info to /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_package-0.0.0-py3.6.egg-info
+[3.744s] running install_scripts
+[3.846s] Installing my_py_node script to /home/ubuntu/ros2_ws/install/lib/my_py_package
+[3.846s] writing list of installed files to '/home/ubuntu/ros2_ws/build/my_py_package/install.log'
+[3.874s] Invoked command in '/home/ubuntu/ros2_ws/src/my_py_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_package build --build-base /home/ubuntu/ros2_ws/build/my_py_package/build install --prefix /home/ubuntu/ros2_ws/install --record /home/ubuntu/ros2_ws/build/my_py_package/install.log --single-version-externally-managed

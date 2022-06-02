@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install
+Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install

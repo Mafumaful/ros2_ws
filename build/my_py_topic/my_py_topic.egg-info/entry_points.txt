@@ -1,0 +1,3 @@
+[console_scripts]
+my_py_publisher_node = my_py_topic.my_py_publisher_node:main
+

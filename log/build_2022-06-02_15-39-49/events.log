@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (my_c_package) JobQueued: {'identifier': 'my_c_package', 'dependencies': OrderedDict()}
+[0.000527] (my_c_topic) JobQueued: {'identifier': 'my_c_topic', 'dependencies': OrderedDict()}
+[0.001134] (my_py_package) JobQueued: {'identifier': 'my_py_package', 'dependencies': OrderedDict()}
+[0.001590] (my_py_topic) JobQueued: {'identifier': 'my_py_topic', 'dependencies': OrderedDict()}
+[0.001747] (my_c_package) JobStarted: {'identifier': 'my_c_package'}
+[0.010567] (my_c_topic) JobStarted: {'identifier': 'my_c_topic'}
+[0.019091] (my_py_package) JobStarted: {'identifier': 'my_py_package'}
+[0.033445] (my_py_topic) JobStarted: {'identifier': 'my_py_topic'}
+[0.046046] (my_c_package) JobProgress: {'identifier': 'my_c_package', 'progress': 'cmake'}
+[0.046957] (my_c_package) JobProgress: {'identifier': 'my_c_package', 'progress': 'build'}
+[0.048011] (my_c_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_c_package', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_c_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'zh_CN:en_US:en'), ('SVGA_VGPU10', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2268'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11040'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'ubuntu'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5508b6727b.sock'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/my_c_package'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.056201] (my_c_topic) JobProgress: {'identifier': 'my_c_topic', 'progress': 'cmake'}
+[0.056888] (my_c_topic) JobProgress: {'identifier': 'my_c_topic', 'progress': 'build'}
+[0.060034] (my_c_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_c_topic', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_c_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'zh_CN:en_US:en'), ('SVGA_VGPU10', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2268'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11040'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'ubuntu'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5508b6727b.sock'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/my_c_topic'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.100466] (-) TimerEvent: {}
+[0.202060] (-) TimerEvent: {}
+[0.302792] (-) TimerEvent: {}
+[0.403556] (-) TimerEvent: {}
+[0.505660] (-) TimerEvent: {}
+[0.632332] (-) TimerEvent: {}
+[0.733736] (-) TimerEvent: {}
+[0.863341] (-) TimerEvent: {}
+[0.963888] (-) TimerEvent: {}
+[1.064800] (-) TimerEvent: {}
+[1.165494] (-) TimerEvent: {}
+[1.198484] (my_c_package) StdoutLine: {'line': b'[100%] Built target my_c_node\n'}
+[1.199878] (my_c_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_c_publisher_node\x1b[0m\n'}
+[1.200093] (my_c_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o\x1b[0m\n'}
+[1.222292] (my_c_package) CommandEnded: {'returncode': 0}
+[1.266112] (-) TimerEvent: {}
+[1.367118] (-) TimerEvent: {}
+[1.467944] (-) TimerEvent: {}
+[1.569001] (-) TimerEvent: {}
+[1.670037] (-) TimerEvent: {}
+[1.818819] (-) TimerEvent: {}
+[1.848498] (my_c_package) JobProgress: {'identifier': 'my_c_package', 'progress': 'install'}
+[1.877540] (my_c_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_c_package', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_c_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'zh_CN:en_US:en'), ('SVGA_VGPU10', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2268'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11040'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'ubuntu'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5508b6727b.sock'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/my_c_package'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.919770] (-) TimerEvent: {}
+[2.022966] (-) TimerEvent: {}
+[2.132407] (-) TimerEvent: {}
+[2.232941] (-) TimerEvent: {}
+[2.341358] (-) TimerEvent: {}
+[2.442210] (-) TimerEvent: {}
+[2.543157] (-) TimerEvent: {}
+[2.652206] (-) TimerEvent: {}
+[2.744547] (my_c_package) StdoutLine: {'line': b'[100%] Built target my_c_node\n'}
+[2.752431] (-) TimerEvent: {}
+[2.853076] (-) TimerEvent: {}
+[2.957117] (-) TimerEvent: {}
+[3.057638] (-) TimerEvent: {}
+[3.179756] (-) TimerEvent: {}
+[3.204552] (my_c_package) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.265456] (my_py_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_package', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/my_py_package/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install', '--record', '/home/ubuntu/ros2_ws/build/my_py_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/my_py_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'LANGUAGE': 'zh_CN:en_US:en', 'SVGA_VGPU10': '0', 'LC_TIME': 'zh_CN.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2268', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '2', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'TERM_PROGRAM_VERSION': '1.66.2', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11040', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ubuntu', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig', 'USERNAME': 'ubuntu', 'XDG_SESSION_ID': '5', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'SESSION_MANAGER': 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GDK_BACKEND': 'x11', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'TERM_PROGRAM': 'vscode', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5508b6727b.sock', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/dashing', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'zh_CN.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/my_py_package', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.279947] (-) TimerEvent: {}
+[3.280875] (my_c_package) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[3.287778] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/lib/my_c_package/my_c_node\n'}
+[3.288440] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_c_package\n'}
+[3.288687] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_c_package\n'}
+[3.289011] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/ament_prefix_path.sh\n'}
+[3.289311] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/path.sh\n'}
+[3.289597] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.bash\n'}
+[3.289895] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.sh\n'}
+[3.290184] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.zsh\n'}
+[3.290478] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/packages/my_c_package\n'}
+[3.290765] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig.cmake\n'}
+[3.291049] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig-version.cmake\n'}
+[3.291366] (my_c_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/package.xml\n'}
+[3.303461] (my_c_package) CommandEnded: {'returncode': 0}
+[3.365945] (my_py_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_topic', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/my_py_topic/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install', '--record', '/home/ubuntu/ros2_ws/build/my_py_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/my_py_topic', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'LANGUAGE': 'zh_CN:en_US:en', 'SVGA_VGPU10': '0', 'LC_TIME': 'zh_CN.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2268', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '2', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'TERM_PROGRAM_VERSION': '1.66.2', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11040', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ubuntu', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig', 'USERNAME': 'ubuntu', 'XDG_SESSION_ID': '5', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'SESSION_MANAGER': 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GDK_BACKEND': 'x11', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'TERM_PROGRAM': 'vscode', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5508b6727b.sock', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/dashing', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'zh_CN.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/my_py_topic', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.380933] (-) TimerEvent: {}
+[3.482451] (-) TimerEvent: {}
+[3.582921] (-) TimerEvent: {}
+[3.595137] (my_c_package) JobEnded: {'identifier': 'my_c_package', 'rc': 0}
+[3.684963] (-) TimerEvent: {}
+[3.795569] (-) TimerEvent: {}
+[3.895924] (-) TimerEvent: {}
+[4.014429] (-) TimerEvent: {}
+[4.039769] (my_py_package) StderrLine: {'line': b"/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.040096] (my_py_package) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[4.040669] (my_py_package) StderrLine: {'line': b"/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[4.040810] (my_py_package) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[4.095100] (my_py_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.096384] (my_py_package) StdoutLine: {'line': b'writing ../../build/my_py_package/my_py_package.egg-info/PKG-INFO\n'}
+[4.097270] (my_py_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_package/my_py_package.egg-info/dependency_links.txt\n'}
+[4.098980] (my_py_package) StdoutLine: {'line': b'writing entry points to ../../build/my_py_package/my_py_package.egg-info/entry_points.txt\n'}
+[4.108557] (my_py_package) StdoutLine: {'line': b'writing requirements to ../../build/my_py_package/my_py_package.egg-info/requires.txt\n'}
+[4.114789] (-) TimerEvent: {}
+[4.117456] (my_py_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_package/my_py_package.egg-info/top_level.txt\n'}
+[4.201372] (my_py_package) StdoutLine: {'line': b"reading manifest file '../../build/my_py_package/my_py_package.egg-info/SOURCES.txt'\n"}
+[4.215117] (-) TimerEvent: {}
+[4.217941] (my_py_package) StdoutLine: {'line': b"writing manifest file '../../build/my_py_package/my_py_package.egg-info/SOURCES.txt'\n"}
+[4.218214] (my_py_package) StdoutLine: {'line': b'running build\n'}
+[4.218368] (my_py_package) StdoutLine: {'line': b'running build_py\n'}
+[4.218819] (my_py_package) StdoutLine: {'line': b'running install\n'}
+[4.219089] (my_py_package) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.219197] (my_py_package) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[4.219890] (my_py_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.221337] (my_py_package) StdoutLine: {'line': b'running install_data\n'}
+[4.221827] (my_py_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.223806] (my_py_package) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_package-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[4.224359] (my_py_package) StdoutLine: {'line': b'Copying ../../build/my_py_package/my_py_package.egg-info to /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_package-0.0.0-py3.6.egg-info\n'}
+[4.226476] (my_py_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.324125] (-) TimerEvent: {}
+[4.339267] (my_py_topic) StderrLine: {'line': b"/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.339700] (my_py_topic) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[4.341190] (my_py_topic) StderrLine: {'line': b"/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[4.341351] (my_py_topic) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[4.415873] (my_py_package) StdoutLine: {'line': b'Installing my_py_node script to /home/ubuntu/ros2_ws/install/lib/my_py_package\n'}
+[4.416792] (my_py_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/my_py_package/install.log'\n"}
+[4.424434] (-) TimerEvent: {}
+[4.451449] (my_py_package) CommandEnded: {'returncode': 0}
+[4.462452] (my_py_topic) StdoutLine: {'line': b'running egg_info\n'}
+[4.466192] (my_py_topic) StdoutLine: {'line': b'creating ../../build/my_py_topic/my_py_topic.egg-info\n'}
+[4.466672] (my_py_topic) StdoutLine: {'line': b'writing ../../build/my_py_topic/my_py_topic.egg-info/PKG-INFO\n'}
+[4.467590] (my_py_package) JobEnded: {'identifier': 'my_py_package', 'rc': 0}
+[4.468242] (my_py_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_topic/my_py_topic.egg-info/dependency_links.txt\n'}
+[4.468837] (my_py_topic) StdoutLine: {'line': b'writing entry points to ../../build/my_py_topic/my_py_topic.egg-info/entry_points.txt\n'}
+[4.469219] (my_py_topic) StdoutLine: {'line': b'writing requirements to ../../build/my_py_topic/my_py_topic.egg-info/requires.txt\n'}
+[4.469520] (my_py_topic) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_topic/my_py_topic.egg-info/top_level.txt\n'}
+[4.470043] (my_py_topic) StdoutLine: {'line': b"writing manifest file '../../build/my_py_topic/my_py_topic.egg-info/SOURCES.txt'\n"}
+[4.472015] (my_py_topic) StdoutLine: {'line': b"reading manifest file '../../build/my_py_topic/my_py_topic.egg-info/SOURCES.txt'\n"}
+[4.473169] (my_py_topic) StdoutLine: {'line': b"writing manifest file '../../build/my_py_topic/my_py_topic.egg-info/SOURCES.txt'\n"}
+[4.473614] (my_py_topic) StdoutLine: {'line': b'running build\n'}
+[4.473862] (my_py_topic) StdoutLine: {'line': b'running build_py\n'}
+[4.474211] (my_py_topic) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_py_topic/build\n'}
+[4.474478] (my_py_topic) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_py_topic/build/lib\n'}
+[4.474724] (my_py_topic) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic\n'}
+[4.475086] (my_py_topic) StdoutLine: {'line': b'copying my_py_topic/my_py_publisher_node.py -> /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic\n'}
+[4.475531] (my_py_topic) StdoutLine: {'line': b'copying my_py_topic/__init__.py -> /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic\n'}
+[4.476043] (my_py_topic) StdoutLine: {'line': b'running install\n'}
+[4.476406] (my_py_topic) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.476587] (my_py_topic) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[4.477176] (my_py_topic) StdoutLine: {'line': b'running install_lib\n'}
+[4.478045] (my_py_topic) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic\n'}
+[4.478383] (my_py_topic) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic/my_py_publisher_node.py -> /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic\n'}
+[4.478791] (my_py_topic) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic/__init__.py -> /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic\n'}
+[4.479387] (my_py_topic) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic/my_py_publisher_node.py to my_py_publisher_node.cpython-36.pyc\n'}
+[4.480161] (my_py_topic) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic/__init__.py to __init__.cpython-36.pyc\n'}
+[4.480576] (my_py_topic) StdoutLine: {'line': b'running install_data\n'}
+[4.481301] (my_py_topic) StdoutLine: {'line': b'copying resource/my_py_topic -> /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/packages\n'}
+[4.481712] (my_py_topic) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/share/my_py_topic\n'}
+[4.482096] (my_py_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.483986] (my_py_topic) StdoutLine: {'line': b'Copying ../../build/my_py_topic/my_py_topic.egg-info to /home/ubuntu/ros2_ws/install/lib/python3.6/site-packages/my_py_topic-0.0.0-py3.6.egg-info\n'}
+[4.485597] (my_py_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[4.512232] (my_py_topic) StdoutLine: {'line': b'Installing my_py_publisher_node script to /home/ubuntu/ros2_ws/install/lib/my_py_topic\n'}
+[4.513327] (my_py_topic) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/my_py_topic/install.log'\n"}
+[4.524768] (-) TimerEvent: {}
+[4.547739] (my_py_topic) CommandEnded: {'returncode': 0}
+[4.554700] (my_py_topic) JobEnded: {'identifier': 'my_py_topic', 'rc': 0}
+[4.624961] (-) TimerEvent: {}
+[4.726260] (-) TimerEvent: {}
+[4.827934] (-) TimerEvent: {}
+[4.928705] (-) TimerEvent: {}
+[5.031998] (-) TimerEvent: {}
+[5.133504] (-) TimerEvent: {}
+[5.244368] (-) TimerEvent: {}
+[5.345506] (-) TimerEvent: {}
+[5.446569] (-) TimerEvent: {}
+[5.562692] (-) TimerEvent: {}
+[5.870339] (-) TimerEvent: {}
+[5.971015] (-) TimerEvent: {}
+[6.075693] (-) TimerEvent: {}
+[6.176067] (-) TimerEvent: {}
+[6.276910] (-) TimerEvent: {}
+[6.377914] (-) TimerEvent: {}
+[6.478678] (-) TimerEvent: {}
+[6.579346] (-) TimerEvent: {}
+[6.680129] (-) TimerEvent: {}
+[6.780865] (-) TimerEvent: {}
+[6.881664] (-) TimerEvent: {}
+[6.982282] (-) TimerEvent: {}
+[7.083024] (-) TimerEvent: {}
+[7.183904] (-) TimerEvent: {}
+[7.284543] (-) TimerEvent: {}
+[7.385234] (-) TimerEvent: {}
+[7.486036] (-) TimerEvent: {}
+[7.586747] (-) TimerEvent: {}
+[7.687069] (-) TimerEvent: {}
+[7.788358] (-) TimerEvent: {}
+[7.889962] (-) TimerEvent: {}
+[7.990763] (-) TimerEvent: {}
+[8.091514] (-) TimerEvent: {}
+[8.192233] (-) TimerEvent: {}
+[8.292892] (-) TimerEvent: {}
+[8.328364] (my_c_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_c_publisher_node\x1b[0m\n'}
+[8.393307] (-) TimerEvent: {}
+[8.451995] (my_c_topic) StdoutLine: {'line': b'[100%] Built target my_c_publisher_node\n'}
+[8.465513] (my_c_topic) CommandEnded: {'returncode': 0}
+[8.488010] (my_c_topic) JobProgress: {'identifier': 'my_c_topic', 'progress': 'install'}
+[8.490071] (my_c_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_c_topic', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_c_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'zh_CN:en_US:en'), ('SVGA_VGPU10', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2268'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11040'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'ubuntu'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/opt/ros/dashing/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ubuntu-vm:@/tmp/.ICE-unix/2191,unix/ubuntu-vm:/tmp/.ICE-unix/2191'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GDK_BACKEND', 'x11'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5508b6727b.sock'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/my_c_topic'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[8.494328] (-) TimerEvent: {}
+[8.546953] (my_c_topic) StdoutLine: {'line': b'[100%] Built target my_c_publisher_node\n'}
+[8.565863] (my_c_topic) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[8.574921] (my_c_topic) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[8.575332] (my_c_topic) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/lib/my_c_topic/my_c_publisher_node\n'}
+[8.577729] (my_c_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/lib/my_c_topic/my_c_publisher_node" to ""\n'}
+[8.577949] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_c_topic\n'}
+[8.578190] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_c_topic\n'}
+[8.578349] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/environment/ament_prefix_path.sh\n'}
+[8.578495] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/environment/path.sh\n'}
+[8.578637] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/local_setup.bash\n'}
+[8.578778] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/local_setup.sh\n'}
+[8.579066] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/local_setup.zsh\n'}
+[8.579199] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/packages/my_c_topic\n'}
+[8.579270] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/cmake/my_c_topicConfig.cmake\n'}
+[8.579338] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/cmake/my_c_topicConfig-version.cmake\n'}
+[8.579403] (my_c_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_topic/package.xml\n'}
+[8.583137] (my_c_topic) CommandEnded: {'returncode': 0}
+[8.595245] (-) TimerEvent: {}
+[8.632399] (my_c_topic) JobEnded: {'identifier': 'my_c_topic', 'rc': 0}
+[8.635227] (-) EventReactorShutdown: {}

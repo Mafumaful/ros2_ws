@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_package': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package -- -j4 -l4
+[0.089s] [100%] Built target my_c_node
+[0.394s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package -- -j4 -l4
+[0.465s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_package': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package --target install -- -j4 -l4
+[0.543s] [100%] Built target my_c_node
+[0.568s] [36mInstall the project...[0m
+[0.578s] -- Install configuration: "RelWithDebInfo"
+[0.578s] -- Up-to-date: /home/ubuntu/ros2_ws/install/lib/my_c_package/my_c_node
+[0.578s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_c_package
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_c_package
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/ament_prefix_path.sh
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/path.sh
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.bash
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.sh
+[0.580s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.zsh
+[0.581s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/packages/my_c_package
+[0.581s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig.cmake
+[0.581s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig-version.cmake
+[0.581s] -- Up-to-date: /home/ubuntu/ros2_ws/install/share/my_c_package/package.xml
+[0.587s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package --target install -- -j4 -l4

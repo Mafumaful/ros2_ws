@@ -1,0 +1,63 @@
+[0.025s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install
+[1.592s] -- The C compiler identification is GNU 7.5.0
+[3.804s] -- The CXX compiler identification is GNU 7.5.0
+[3.898s] -- Check for working C compiler: /usr/bin/cc
+[4.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.188s] -- Detecting C compiler ABI info
+[4.293s] -- Detecting C compiler ABI info - done
+[4.297s] -- Detecting C compile features
+[5.069s] -- Detecting C compile features - done
+[5.073s] -- Check for working CXX compiler: /usr/bin/c++
+[5.154s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.154s] -- Detecting CXX compiler ABI info
+[5.232s] -- Detecting CXX compiler ABI info - done
+[5.237s] -- Detecting CXX compile features
+[5.621s] -- Detecting CXX compile features - done
+[5.674s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[5.772s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.772s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.283s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[6.442s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[6.832s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[6.992s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[7.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.071s] -- Looking for pthread.h
+[7.338s] -- Looking for pthread.h - found
+[7.339s] -- Looking for pthread_create
+[7.428s] -- Looking for pthread_create - not found
+[7.428s] -- Looking for pthread_create in pthreads
+[7.492s] -- Looking for pthread_create in pthreads - not found
+[7.492s] -- Looking for pthread_create in pthread
+[7.590s] -- Looking for pthread_create in pthread - found
+[7.591s] -- Found Threads: TRUE  
+[7.753s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[7.830s] Error parsing '/home/ubuntu/ros2_ws/src/my_c_topic/package.xml':
+[7.918s] Traceback (most recent call last):
+[7.918s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[7.919s]     main()
+[7.919s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[7.919s]     raise e
+[7.919s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[7.919s]     args.package_xml.read(), filename=args.package_xml.name)
+[7.919s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 774, in parse_package_string
+[7.919s]     pkg.validate(warnings=warnings)
+[7.919s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 317, in validate
+[7.919s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[7.919s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ubuntu/ros2_ws/src/my_c_topic/package.xml':
+[7.919s] Invalid email " " for person "ubuntu"
+[7.934s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[7.934s]   execute_process(/usr/bin/python3
+[7.934s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[7.935s]   /home/ubuntu/ros2_ws/src/my_c_topic/package.xml
+[7.935s]   /home/ubuntu/ros2_ws/build/my_c_topic/ament_cmake_core/package.cmake)
+[7.935s]   returned error code 1
+[7.935s] Call Stack (most recent call first):
+[7.935s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[7.935s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[7.935s]   CMakeLists.txt:46 (ament_lint_auto_find_test_dependencies)
+[7.935s] 
+[7.935s] 
+[7.936s] -- Configuring incomplete, errors occurred!
+[7.936s] See also "/home/ubuntu/ros2_ws/build/my_c_topic/CMakeFiles/CMakeOutput.log".
+[7.936s] See also "/home/ubuntu/ros2_ws/build/my_c_topic/CMakeFiles/CMakeError.log".
+[7.939s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install

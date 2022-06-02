@@ -1,0 +1,53 @@
+[0.116s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_package': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_package -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install
+[1.691s] -- The C compiler identification is GNU 7.5.0
+[3.902s] -- The CXX compiler identification is GNU 7.5.0
+[3.996s] -- Check for working C compiler: /usr/bin/cc
+[4.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.286s] -- Detecting C compiler ABI info
+[4.387s] -- Detecting C compiler ABI info - done
+[4.391s] -- Detecting C compile features
+[5.167s] -- Detecting C compile features - done
+[5.171s] -- Check for working CXX compiler: /usr/bin/c++
+[5.252s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.252s] -- Detecting CXX compiler ABI info
+[5.332s] -- Detecting CXX compiler ABI info - done
+[5.336s] -- Detecting CXX compile features
+[5.725s] -- Detecting CXX compile features - done
+[5.773s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[5.871s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.871s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.354s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[6.699s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[6.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.704s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/my_c_package/include>
+[6.704s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.720s] -- Added test 'lint_cmake' to check CMake code style
+[6.722s] -- Added test 'uncrustify' to check C / C++ code style
+[6.723s] -- Added test 'xmllint' to check XML markup files
+[6.727s] -- Configuring done
+[6.735s] -- Generating done
+[6.736s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/my_c_package
+[6.739s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_package -DCMAKE_BUILD_TYPE=RelWithDebInfo -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install
+[6.743s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_package': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package -- -j4 -l4
+[6.785s] [35m[1mScanning dependencies of target my_c_node[0m
+[6.797s] [ 50%] [32mBuilding CXX object CMakeFiles/my_c_node.dir/src/my_c_node.cpp.o[0m
+[7.411s] [100%] [32m[1mLinking CXX executable my_c_node[0m
+[7.458s] [100%] Built target my_c_node
+[7.470s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package -- -j4 -l4
+[7.523s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_package': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package --target install -- -j4 -l4
+[7.605s] [100%] Built target my_c_node
+[7.630s] [36mInstall the project...[0m
+[7.641s] -- Install configuration: "RelWithDebInfo"
+[7.642s] -- Installing: /home/ubuntu/ros2_ws/install/lib/my_c_package/my_c_node
+[7.642s] -- Installing: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_c_package
+[7.642s] -- Installing: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_c_package
+[7.643s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/ament_prefix_path.sh
+[7.644s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/environment/path.sh
+[7.644s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.bash
+[7.644s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.sh
+[7.644s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/local_setup.zsh
+[7.644s] -- Installing: /home/ubuntu/ros2_ws/install/share/ament_index/resource_index/packages/my_c_package
+[7.645s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig.cmake
+[7.645s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/cmake/my_c_packageConfig-version.cmake
+[7.645s] -- Installing: /home/ubuntu/ros2_ws/install/share/my_c_package/package.xml
+[7.650s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_package --target install -- -j4 -l4

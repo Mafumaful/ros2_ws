@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target my_c_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/my_c_topic/src/my_c_publisher_node.cpp:[m[K In constructor ‘[01m[Kmy_c_publisher_node::my_c_publisher_node()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/my_c_topic/src/my_c_publisher_node.cpp:19:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmy_c_publisher_node::create_wall_timer(int, std::_Bind_helper<false, void (my_c_publisher_node::*)(), my_c_publisher_node*>::type)[m[K’
+   timer_ = this->create_wall_timer(500, std::bind(&my_c_publisher_node::vel_cb, this)[01;31m[K)[m[K;
+                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/my_c_topic/src/my_c_publisher_node.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:335:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::callback_group::CallbackGroup::SharedPtr)
+   [01;36m[Kcreate_wall_timer[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:335:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/ros2_ws/src/my_c_topic/src/my_c_publisher_node.cpp:19:86:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+   timer_ = this->create_wall_timer(500, std::bind(&my_c_publisher_node::vel_cb, this)[01;36m[K)[m[K;
+                                                                                      [01;36m[K^[m[K
+CMakeFiles/my_c_publisher_node.dir/build.make:62: recipe for target 'CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/my_c_publisher_node.dir/all' failed
+make[2]: *** [CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/my_c_publisher_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
