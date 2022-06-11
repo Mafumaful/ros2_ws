@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target my_c_publisher_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o[0m
-CMakeFiles/my_c_publisher_node.dir/build.make:62: recipe for target 'CMakeFiles/my_c_publisher_node.dir/src/my_c_publisher_node.cpp.o' failed
-CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/my_c_publisher_node.dir/all' failed
-Makefile:140: recipe for target 'all' failed

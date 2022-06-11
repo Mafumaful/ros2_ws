@@ -354,4 +354,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/my_c_publisher_node.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/my_c_subscriber_node.dir/DependInfo.cmake"
   )

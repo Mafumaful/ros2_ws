@@ -1,0 +1,27 @@
+[0.044s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_py_topic:/home/ubuntu/ros2_ws/install/my_py_package:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
+[0.671s] [35m[1mScanning dependencies of target my_c_subscriber_node[0m
+[0.671s] [ 50%] Built target my_c_publisher_node
+[0.671s] [ 75%] [32mBuilding CXX object CMakeFiles/my_c_subscriber_node.dir/src/my_c_subscriber_node.cpp.o[0m
+[2.358s] [100%] [32m[1mLinking CXX executable my_c_subscriber_node[0m
+[2.493s] [100%] Built target my_c_subscriber_node
+[2.506s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_py_topic:/home/ubuntu/ros2_ws/install/my_py_package:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
+[2.539s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_py_topic:/home/ubuntu/ros2_ws/install/my_py_package:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4
+[2.592s] [100%] Built target my_c_subscriber_node
+[2.592s] [100%] Built target my_c_publisher_node
+[2.612s] [36mInstall the project...[0m
+[2.621s] -- Install configuration: ""
+[2.621s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_topic/lib/my_c_topic/my_c_subscriber_node
+[2.622s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/my_c_topic/lib/my_c_topic/my_c_subscriber_node" to ""
+[2.622s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/lib/my_c_topic/my_c_publisher_node
+[2.622s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/package_run_dependencies/my_c_topic
+[2.622s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/parent_prefix_path/my_c_topic
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/environment/ament_prefix_path.sh
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/environment/path.sh
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.bash
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.sh
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.zsh
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/packages/my_c_topic
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/cmake/my_c_topicConfig.cmake
+[2.623s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/cmake/my_c_topicConfig-version.cmake
+[2.624s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/package.xml
+[2.627s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_py_topic:/home/ubuntu/ros2_ws/install/my_py_package:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4

@@ -32,6 +32,20 @@ ament_target_dependencies(
   "rclcpp"
 )
 
+add_executable(my_c_subscriber_node src/my_c_subscriber_node.cpp)
+target_include_directories(my_c_subscriber_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+ament_target_dependencies(
+  my_c_subscriber_node
+  "geometry_msgs"
+  "std_msgs"
+  "rclcpp"
+)
+
+install(TARGETS my_c_subscriber_node
+  DESTINATION lib/${PROJECT_NAME})
+
 install(TARGETS my_c_publisher_node
   DESTINATION lib/${PROJECT_NAME})
 

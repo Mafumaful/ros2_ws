@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
