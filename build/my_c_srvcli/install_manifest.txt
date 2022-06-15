@@ -1,0 +1,13 @@
+/home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_cli_node
+/home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_srv_node
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/package_run_dependencies/my_c_srvcli
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/parent_prefix_path/my_c_srvcli
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/path.sh
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.bash
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.sh
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.zsh
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/packages/my_c_srvcli
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig.cmake
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig-version.cmake
+/home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/package.xml

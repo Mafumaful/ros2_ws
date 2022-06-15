@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:43:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::FutureReturnCode[m[K’ has not been declared
+       rclcpp::[01;31m[KFutureReturnCode[m[K::SUCCESS)
+               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/my_c_cli_node.dir/all] Error 2
+make: *** [all] Error 2

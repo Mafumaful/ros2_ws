@@ -1,0 +1,23 @@
+[0.054s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
+[0.153s] [ 50%] Built target my_c_subscriber_node
+[0.155s] [100%] Built target my_c_publisher_node
+[0.439s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
+[0.658s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4
+[0.771s] [ 50%] Built target my_c_subscriber_node
+[0.789s] [100%] Built target my_c_publisher_node
+[0.815s] [36mInstall the project...[0m
+[0.830s] -- Install configuration: ""
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/lib/my_c_topic/my_c_subscriber_node
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/lib/my_c_topic/my_c_publisher_node
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/package_run_dependencies/my_c_topic
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/parent_prefix_path/my_c_topic
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/environment/ament_prefix_path.sh
+[0.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/environment/path.sh
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.bash
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.sh
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/local_setup.zsh
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/ament_index/resource_index/packages/my_c_topic
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/cmake/my_c_topicConfig.cmake
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/cmake/my_c_topicConfig-version.cmake
+[0.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_topic/share/my_c_topic/package.xml
+[0.845s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4

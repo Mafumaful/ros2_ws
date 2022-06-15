@@ -1,0 +1,35 @@
+[0.063s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[0.158s] [35m[1mScanning dependencies of target my_c_srv_node[0m
+[0.224s] [ 50%] Built target my_c_cli_node
+[0.238s] [ 75%] [32mBuilding CXX object CMakeFiles/my_c_srv_node.dir/src/my_c_srv_node.cpp.o[0m
+[1.270s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:[m[K In member function ‘[01m[Kvoid my_c_srv_node::server_cb(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[1.270s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:31:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.270s]  void my_c_srv_node::server_cb(const std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+[1.270s]                                                                                       [01;35m[K^~~~~~~[m[K
+[1.270s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:32:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.270s]                                const std::shared_ptr<std_srvs::srv::Trigger::Response> [01;35m[Kresponse[m[K)
+[1.271s]                                                                                        [01;35m[K^~~~~~~~[m[K
+[3.705s] [100%] [32m[1mLinking CXX executable my_c_srv_node[0m
+[4.188s] [100%] Built target my_c_srv_node
+[4.200s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[4.232s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli --target install -- -j4 -l4
+[4.289s] [100%] Built target my_c_cli_node
+[4.289s] [100%] Built target my_c_srv_node
+[4.309s] [36mInstall the project...[0m
+[4.338s] -- Install configuration: ""
+[4.402s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_cli_node
+[4.448s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_cli_node" to ""
+[4.449s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_srv_node
+[4.449s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_srv_node" to ""
+[4.449s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/package_run_dependencies/my_c_srvcli
+[4.450s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/parent_prefix_path/my_c_srvcli
+[4.450s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/ament_prefix_path.sh
+[4.450s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/path.sh
+[4.450s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.bash
+[4.451s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.sh
+[4.451s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.zsh
+[4.451s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/packages/my_c_srvcli
+[4.451s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig.cmake
+[4.451s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig-version.cmake
+[4.451s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/package.xml
+[4.454s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli --target install -- -j4 -l4

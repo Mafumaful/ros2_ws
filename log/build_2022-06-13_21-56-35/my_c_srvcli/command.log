@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_srvcli -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/my_c_srvcli
+Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_srvcli -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/my_c_srvcli
+Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4

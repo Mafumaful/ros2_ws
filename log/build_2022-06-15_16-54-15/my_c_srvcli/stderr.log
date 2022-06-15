@@ -1,0 +1,6 @@
+CMakeFiles/my_c_srv_node.dir/src/my_c_srv_node.cpp.o：在函数‘rclcpp::Service<std_srvs::srv::Trigger>::Service(std::shared_ptr<rcl_node_t>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>, rcl_service_options_t&)’中：
+my_c_srv_node.cpp:(.text._ZN6rclcpp7ServiceIN8std_srvs3srv7TriggerEEC2ESt10shared_ptrI10rcl_node_tERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_t[_ZN6rclcpp7ServiceIN8std_srvs3srv7TriggerEEC5ESt10shared_ptrI10rcl_node_tERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_t]+0xb0)：对‘rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<std_srvs::srv::Trigger>()’未定义的引用
+collect2: error: ld returned 1 exit status
+make[2]: *** [my_c_srv_node] Error 1
+make[1]: *** [CMakeFiles/my_c_srv_node.dir/all] Error 2
+make: *** [all] Error 2

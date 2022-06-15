@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_py_publisher_node = my_py_topic.my_py_publisher_node:main'
+            'my_py_publisher_node = my_py_topic.my_py_publisher_node:main',
+            'my_py_subscriber_node = my_py_topic.my_py_subscriber_node:main'
         ],
     },
 )

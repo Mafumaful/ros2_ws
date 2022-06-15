@@ -1,0 +1,14 @@
+[0.041s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[0.361s] [35m[1mScanning dependencies of target my_c_cli_node[0m
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o[0m
+[1.064s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.065s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:41:70:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Krclcpp::Client<turtlesim::srv::Spawn>::SharedFuture {aka std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >}[m[K’ to non-scalar type ‘[01m[Kturtlesim::srv::Spawn::Response {aka turtlesim::srv::Spawn_Response_<std::allocator<void> >}[m[K’ requested
+[1.065s]    turtlesim::srv::Spawn::Response result = [01;31m[Kclient->async_send_request(request)[m[K;
+[1.065s]                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.368s] CMakeFiles/my_c_cli_node.dir/build.make:62: recipe for target 'CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o' failed
+[1.368s] make[2]: *** [CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o] Error 1
+[1.368s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/my_c_cli_node.dir/all' failed
+[1.369s] Makefile:140: recipe for target 'all' failed
+[1.369s] make[1]: *** [CMakeFiles/my_c_cli_node.dir/all] Error 2
+[1.369s] make: *** [all] Error 2
+[1.371s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4

@@ -1,0 +1,4 @@
+[console_scripts]
+my_py_cli_node = my_py_srvcli.my_py_cli_node:main
+my_py_srv_node = my_py_srvcli.my_py_srv_node:main
+

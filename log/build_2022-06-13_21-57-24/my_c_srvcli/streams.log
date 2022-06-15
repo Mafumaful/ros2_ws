@@ -1,0 +1,14 @@
+[0.036s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[0.386s] [35m[1mScanning dependencies of target my_c_cli_node[0m
+[0.386s] [ 50%] [32mBuilding CXX object CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o[0m
+[1.086s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.087s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:43:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::FutureReturnCode[m[K’ has not been declared
+[1.087s]        rclcpp::[01;31m[KFutureReturnCode[m[K::SUCCESS)
+[1.087s]                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.442s] CMakeFiles/my_c_cli_node.dir/build.make:62: recipe for target 'CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o' failed
+[1.443s] make[2]: *** [CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o] Error 1
+[1.443s] make[1]: *** [CMakeFiles/my_c_cli_node.dir/all] Error 2
+[1.443s] make: *** [all] Error 2
+[1.447s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/my_c_cli_node.dir/all' failed
+[1.448s] Makefile:140: recipe for target 'all' failed
+[1.448s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4

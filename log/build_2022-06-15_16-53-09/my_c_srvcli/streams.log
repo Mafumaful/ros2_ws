@@ -1,0 +1,22 @@
+[0.054s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[0.312s] [35m[1mScanning dependencies of target my_c_srv_node[0m
+[0.349s] [ 50%] Built target my_c_cli_node
+[0.352s] [ 75%] [32mBuilding CXX object CMakeFiles/my_c_srv_node.dir/src/my_c_srv_node.cpp.o[0m
+[5.894s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:[m[K In member function ‘[01m[Kvoid my_c_srv_node::server_cb(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.894s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:31:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.894s]  void my_c_srv_node::server_cb(const std_srvs::srv::Trigger::Request::SharedPtr [01;35m[Krequest[m[K,
+[5.894s]                                                                                 [01;35m[K^~~~~~~[m[K
+[5.894s] [01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_srv_node.cpp:32:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.894s]                                const std_srvs::srv::Trigger::Response::SharedPtr [01;35m[Kresponse[m[K)
+[5.894s]                                                                                  [01;35m[K^~~~~~~~[m[K
+[7.158s] [100%] [32m[1mLinking CXX executable my_c_srv_node[0m
+[7.440s] CMakeFiles/my_c_srv_node.dir/src/my_c_srv_node.cpp.o：在函数‘rclcpp::Service<std_srvs::srv::Trigger>::Service(std::shared_ptr<rcl_node_t>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>, rcl_service_options_t&)’中：
+[7.440s] my_c_srv_node.cpp:(.text._ZN6rclcpp7ServiceIN8std_srvs3srv7TriggerEEC2ESt10shared_ptrI10rcl_node_tERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_t[_ZN6rclcpp7ServiceIN8std_srvs3srv7TriggerEEC5ESt10shared_ptrI10rcl_node_tERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_18AnyServiceCallbackIS3_EER21rcl_service_options_t]+0xb0)：对‘rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<std_srvs::srv::Trigger>()’未定义的引用
+[7.441s] collect2: error: ld returned 1 exit status
+[7.442s] CMakeFiles/my_c_srv_node.dir/build.make:162: recipe for target 'my_c_srv_node' failed
+[7.442s] make[2]: *** [my_c_srv_node] Error 1
+[7.442s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/my_c_srv_node.dir/all' failed
+[7.442s] Makefile:140: recipe for target 'all' failed
+[7.444s] make[1]: *** [CMakeFiles/my_c_srv_node.dir/all] Error 2
+[7.445s] make: *** [all] Error 2
+[7.446s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4

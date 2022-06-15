@@ -1,0 +1,31 @@
+[1.132s] Invoking command in '/home/ubuntu/ros2_ws/src/my_py_topic': PYTHONPATH=/home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_topic build --build-base /home/ubuntu/ros2_ws/build/my_py_topic/build install --prefix /home/ubuntu/ros2_ws/install/my_py_topic --record /home/ubuntu/ros2_ws/build/my_py_topic/install.log --single-version-externally-managed
+[1.408s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.408s]   % (opt, underscore_opt)
+[1.409s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.409s]   % (opt, underscore_opt)
+[1.438s] running egg_info
+[1.439s] writing ../../build/my_py_topic/my_py_topic.egg-info/PKG-INFO
+[1.446s] writing dependency_links to ../../build/my_py_topic/my_py_topic.egg-info/dependency_links.txt
+[1.446s] writing entry points to ../../build/my_py_topic/my_py_topic.egg-info/entry_points.txt
+[1.446s] writing requirements to ../../build/my_py_topic/my_py_topic.egg-info/requires.txt
+[1.446s] writing top-level names to ../../build/my_py_topic/my_py_topic.egg-info/top_level.txt
+[1.446s] reading manifest file '../../build/my_py_topic/my_py_topic.egg-info/SOURCES.txt'
+[1.446s] writing manifest file '../../build/my_py_topic/my_py_topic.egg-info/SOURCES.txt'
+[1.446s] running build
+[1.446s] running build_py
+[1.446s] copying my_py_topic/my_py_subscriber_node.py -> /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic
+[1.447s] running install
+[1.447s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.447s]   setuptools.SetuptoolsDeprecationWarning,
+[1.447s] running install_lib
+[1.447s] copying /home/ubuntu/ros2_ws/build/my_py_topic/build/lib/my_py_topic/my_py_subscriber_node.py -> /home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages/my_py_topic
+[1.447s] byte-compiling /home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages/my_py_topic/my_py_subscriber_node.py to my_py_subscriber_node.cpython-36.pyc
+[1.448s] running install_data
+[1.448s] running install_egg_info
+[1.448s] removing '/home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages/my_py_topic-0.0.0-py3.6.egg-info' (and everything under it)
+[1.449s] Copying ../../build/my_py_topic/my_py_topic.egg-info to /home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages/my_py_topic-0.0.0-py3.6.egg-info
+[1.450s] running install_scripts
+[1.466s] Installing my_py_publisher_node script to /home/ubuntu/ros2_ws/install/my_py_topic/lib/my_py_topic
+[1.466s] Installing my_py_subscriber_node script to /home/ubuntu/ros2_ws/install/my_py_topic/lib/my_py_topic
+[1.467s] writing list of installed files to '/home/ubuntu/ros2_ws/build/my_py_topic/install.log'
+[1.502s] Invoked command in '/home/ubuntu/ros2_ws/src/my_py_topic' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/my_py_topic/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_topic build --build-base /home/ubuntu/ros2_ws/build/my_py_topic/build install --prefix /home/ubuntu/ros2_ws/install/my_py_topic --record /home/ubuntu/ros2_ws/build/my_py_topic/install.log --single-version-externally-managed

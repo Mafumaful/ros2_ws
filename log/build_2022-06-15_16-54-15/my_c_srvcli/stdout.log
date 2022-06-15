@@ -1,0 +1,5 @@
+[ 25%] [32m[1mLinking CXX executable my_c_srv_node[0m
+[ 75%] Built target my_c_cli_node
+CMakeFiles/my_c_srv_node.dir/build.make:162: recipe for target 'my_c_srv_node' failed
+CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/my_c_srv_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

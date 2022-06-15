@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[0.120s] [35m[1mScanning dependencies of target my_c_cli_node[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o[0m
+[1.796s] [100%] [32m[1mLinking CXX executable my_c_cli_node[0m
+[1.924s] [100%] Built target my_c_cli_node
+[1.936s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli -- -j4 -l4
+[1.965s] Invoking command in '/home/ubuntu/ros2_ws/build/my_c_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli --target install -- -j4 -l4
+[2.025s] [100%] Built target my_c_cli_node
+[2.045s] [36mInstall the project...[0m
+[2.054s] -- Install configuration: ""
+[2.054s] -- Installing: /home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_cli_node
+[2.055s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/my_c_srvcli/lib/my_c_srvcli/my_c_cli_node" to ""
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/package_run_dependencies/my_c_srvcli
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/parent_prefix_path/my_c_srvcli
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/ament_prefix_path.sh
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/environment/path.sh
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.bash
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.sh
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/local_setup.zsh
+[2.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/ament_index/resource_index/packages/my_c_srvcli
+[2.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig.cmake
+[2.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/cmake/my_c_srvcliConfig-version.cmake
+[2.056s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_c_srvcli/share/my_c_srvcli/package.xml
+[2.059s] Invoked command in '/home/ubuntu/ros2_ws/build/my_c_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_srvcli --target install -- -j4 -l4
