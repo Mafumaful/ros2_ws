@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/my_c_topic
-Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake /home/ubuntu/ros2_ws/src/my_c_topic -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/my_c_topic
-Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic -- -j4 -l4
-Invoking command in '/home/ubuntu/ros2_ws/build/my_c_topic': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2_ws/build/my_c_topic' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install:/opt/ros/dashing /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_c_topic --target install -- -j4 -l4

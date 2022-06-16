@@ -1,7 +1,0 @@
-[01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/ubuntu/ros2_ws/src/my_c_srvcli/src/my_c_cli_node.cpp:41:70:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Krclcpp::Client<turtlesim::srv::Spawn>::SharedFuture {aka std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >}[m[K’ to non-scalar type ‘[01m[Kturtlesim::srv::Spawn::Response {aka turtlesim::srv::Spawn_Response_<std::allocator<void> >}[m[K’ requested
-   turtlesim::srv::Spawn::Response result = [01;31m[Kclient->async_send_request(request)[m[K;
-                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/my_c_cli_node.dir/src/my_c_cli_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/my_c_cli_node.dir/all] Error 2
-make: *** [all] Error 2
