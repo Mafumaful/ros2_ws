@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-才ear才ear
+
 '''创建一个节点类'''
 
 
