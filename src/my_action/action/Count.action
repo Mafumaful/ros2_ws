@@ -5,4 +5,4 @@ uint32 goal_num
 uint32 finish
 ---
 # Define a feedback message
-float32 percent_complete
+int64 percent_complete
