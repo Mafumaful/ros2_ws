@@ -35,7 +35,6 @@ class CountActionServer(Node):
             goal_handle.publish_feedback(feedback_msg)
             self.get_logger().info('Publish feedback')
             time.sleep(0.1)
-            # self.get_logger().info('Feedback: %d%s' % (feedback_msg.percent_complete*i, "%"))
 
         if rclpy.ok():
             result.finish = goal_handle.request.goal_num
