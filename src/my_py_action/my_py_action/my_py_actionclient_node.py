@@ -19,16 +19,27 @@ class CountActionClient(Node):
         goal_msg.goal_num = 10
         self._action_client.wait_for_server()
         self._send_goal_future = self._action_client.send_goal_async(
-            goal_msg, feedback_callback=self._send_goal_future.add_done_callback(self.feedback_cb))
+            goal_msg, feedback_callback=self.feedback_cb)
+        self._send_goal_future.add_done_callback(self.goal_response_callback)
 
-        return self._action_client.send_goal_async(goal_msg)
-
-    def feedback_cb(self, future):
+    def goal_response_callback(self, future):
+        """收到目标处理结果"""
         goal_handle = future.result()
         if not goal_handle.accepted:
             self.get_logger().info('Goal rejected :(')
             return
         self.get_logger().info('Goal accepted :)')
+        self._get_result_future = goal_handle.get_result_async()
+        self._get_result_future.add_done_callback(self.get_result_callback)
+
+    def get_result_callback(self, future):
+        """获取结果反馈"""
+        result = future.result().result
+        self.get_logger().info(f'Result: {result.pose}')
+
+    def feedback_cb(self, future):
+        feedback = future.feedback
+        self.get_logger().info(f'The progress is: {feedback.percent_complete}')
 
 
 def main(args=None):
