@@ -22,21 +22,23 @@ find_package(geometry_msgs REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_library(talker_component SHARED
+add_library(my_component SHARED
   src/my_component_talker.cpp)
-target_include_directories(talker_component PRIVATE
+target_include_directories(my_component PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
-target_compile_definitions(talker_component 
+target_compile_definitions(my_component 
   PRIVATE "COMPOSITION_BUILDING_DLL")
-ament_target_dependencies(talker_component
+ament_target_dependencies(my_component
   "rclcpp"
   "rclcpp_components"
   "std_msgs"
+  "geometry_msgs"
 )
-rclcpp_components_register_node(talker_component PLUGIN "my_composition::my_c_publisher_node" EXECUTABLE my_component_talker_node)
+rclcpp_components_register_nodes(my_component PLUGIN "my_composition::my_c_publisher_node" EXECUTABLE my_component_talker_node)
 install(TARGETS
+my_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
