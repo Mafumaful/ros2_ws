@@ -5,7 +5,7 @@
 
 using namespace std::chrono_literals;
 
-namespace my_composition
+namespace my_component_turtlesim
 {
     // 发布速度的节点，需要继承rclcpp::Node
     class my_c_publisher_node : public rclcpp::Node
@@ -51,4 +51,4 @@ namespace my_composition
 }
 
 #include "rclcpp_components/register_node_macro.hpp"
-RCLCPP_COMPONENTS_REGISTER_NODE(my_composition::my_c_publisher_node)
+RCLCPP_COMPONENTS_REGISTER_NODE(my_component_turtlesim::my_c_publisher_node)

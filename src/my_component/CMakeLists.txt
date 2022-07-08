@@ -24,10 +24,12 @@ find_package(std_msgs REQUIRED)
 
 add_library(my_component SHARED
   src/my_component_talker.cpp)
+# 包含目录
 target_include_directories(my_component PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
+# 加入预处理器定义
 target_compile_definitions(my_component 
   PRIVATE "COMPOSITION_BUILDING_DLL")
 ament_target_dependencies(my_component
@@ -36,7 +38,9 @@ ament_target_dependencies(my_component
   "std_msgs"
   "geometry_msgs"
 )
-rclcpp_components_register_nodes(my_component PLUGIN "my_composition::my_c_publisher_node" EXECUTABLE my_component_talker_node)
+# 生成插件my_component_turtlesim::my_c_publisher_node
+rclcpp_components_register_nodes(my_component "my_component_turtlesim::my_c_publisher_node")
+# 安装
 install(TARGETS
 my_component
   ARCHIVE DESTINATION lib
